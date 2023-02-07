@@ -1,4 +1,8 @@
-.body {
-    grid-area: body;
+.body1 {
+    grid-area: body1;
     background-color: lightcoral;
+}
+.body2 {
+    grid-area: body2;
+    background-color: rgb(222, 236, 21);
 }

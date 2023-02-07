@@ -1,8 +1,12 @@
-.main {
+.grid {
     display: grid;
     grid-template-areas: 
     "header"
-    "body"
+    "body1"
+    "body2"
     "footer";
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+body {
+    margin: 0;
 }
