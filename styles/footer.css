@@ -1,4 +1,40 @@
 .footer {
     grid-area: footer;
-    background-color: lightgreen;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter-box {
+    background-color: #2F68C5;
+    width: 50%;
+    height: 70px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.newsletter-text > * {
+    margin: 0;
+    color: white;
+}
+.newsletter-text .newsletter-main {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.newsletter-text .newsletter-second {
+    font-weight: 300;
+}
+.news-button {
+    margin-left: 50px;
+    height: 25px;
+    width: 90px;
+    color: white;
+    background-color: #2F68C5;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 6px;
 }
